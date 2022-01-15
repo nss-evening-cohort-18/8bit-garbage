@@ -1,5 +1,7 @@
 body {
     background-color: #000;
+    margin: 0;
+    padding: 0;
 }
 
 .logo-container {
@@ -11,6 +13,10 @@ body {
 
 .logo {
     height: 200px;
+}
+
+a {
+    text-decoration: none;
 }
 
 
@@ -44,4 +50,38 @@ tr {
 td img {
     height: 100%;
     width: 100%;
+}
+
+/*N64*/
+
+.n64-header {
+    background-image: url("../img/n64classic-header.jpg");
+    margin: 0;
+    padding: 0;
+    border: 1px white solid;
+    height: 136px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+} 
+
+.n64-nav-list {
+    display: flex;
+    margin: 0;
+}
+
+.n64-nav-list-item {
+    background-color: #000;
+    width: 100px;
+    list-style: none;
+    text-align: center;
+    padding: 5px;
+    border: 1px white solid;
+    color: white;
+    margin: 0 10px;
+}
+
+.n64-nav-list-item:hover {
+    background-color: white;
+    color: black;
 }
