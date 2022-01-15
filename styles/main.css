@@ -58,7 +58,7 @@ td img {
     height: 136px;
     width: 100%;
     display: flex;
-    align-items: flex-end;
+    align-items: flex-start;
     justify-content: space-around;
 } 
 
@@ -82,4 +82,41 @@ td img {
 .NES-nav-list-item:hover {
     background-color: white;
     color: black;
+}
+
+main {
+    display: flex;
+    color: white;
+}
+
+aside {
+    width: 30%;
+    margin: 5px;
+}
+
+.NES-console-img {
+    border: 1px white solid;
+    width: 100%;
+}
+
+.NES-funFacts {
+    border: 1px white solid;
+    text-align: center;
+}
+
+.NES-funFacts-header {
+    text-decoration: underline solid white;
+}
+
+.NES-main-content {
+    border: 1px white solid;
+    width: 70%;
+    margin: 5px;
+}
+
+.NES-main-content-header {
+    text-align: center;
+    font-size: 70px;
+    margin-top: 5px;
+    text-decoration: underline solid white;
 }
