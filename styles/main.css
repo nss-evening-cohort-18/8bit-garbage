@@ -45,3 +45,79 @@ td img {
     height: 100%;
     width: 100%;
 }
+
+.gc__header {
+    border: 2px solid white;
+    margin: 0;
+}
+
+/* GameCube */
+
+.gc-header {
+    background-image: url("../img/gc-header.png");
+    margin: 5px;
+    padding: 0;
+    border: 1px white solid;
+    height: 136px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+} 
+
+.gc-nav-list {
+    display: flex;
+    margin: 0;
+}
+
+.gc-nav-list-item {
+    background-color: #000;
+    width: 100px;
+    list-style: none;
+    text-align: center;
+    padding: 5px;
+    border: 1px white solid;
+    color: white;
+    margin: 0 10px;
+}
+
+.gc-nav-list-item:hover {
+    background-color: white;
+    color: black;
+}
+
+main {
+    display: flex;
+    color: white;
+}
+
+aside {
+    width: 30%;
+    margin: 5px;
+}
+
+.gc-console-img {
+    border: 1px white solid;
+    width: 100%;
+}
+
+.gc-funFacts {
+    border: 1px white solid;
+    text-align: center;
+}
+
+.gc-funFacts-header {
+    text-decoration: underline solid white;
+}
+
+.gc-main-content {
+    border: 1px white solid;
+    width: 70%;
+    margin: 5px;
+}
+
+.gc-main-content-header {
+    text-align: center;
+    font-size: 70px;
+    margin-top: 5px;
+    text-decoration: underline solid white;
+}
