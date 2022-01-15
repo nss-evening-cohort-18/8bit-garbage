@@ -1,5 +1,6 @@
 body {
-    background-color: #000;
+    background-image: url("../img/background.jpg");
+    background-color: #000; 
 }
 
 .logo-container {
