@@ -52,13 +52,14 @@ td img {
 
 .NES-header {
     background-image: url("../img/NES_nav.png");
+    background-repeat: no-repeat;
     margin: 0;
     padding: 0;
-    border: 1px white solid;
-    height: 136px;
+    padding-bottom: 40px;
+    height: 200px;
     width: 100%;
     display: flex;
-    align-items: flex-start;
+    align-items: flex-end;
     justify-content: space-around;
 } 
 
@@ -74,14 +75,14 @@ td img {
     list-style: none;
     text-align: center;
     padding: 5px;
-    border: 1px white solid;
+    background-color: red;
     color: white;
     margin: 0 10px;
 }
 
 .NES-nav-list-item:hover {
-    background-color: white;
-    color: black;
+    background-color: black;
+    color: red;
 }
 
 main {
@@ -112,11 +113,4 @@ aside {
     border: 1px white solid;
     width: 70%;
     margin: 5px;
-}
-
-.NES-main-content-header {
-    text-align: center;
-    font-size: 70px;
-    margin-top: 5px;
-    text-decoration: underline solid white;
 }
