@@ -1,0 +1,47 @@
+body {
+    background-color: #000;
+}
+
+.logo-container {
+    display: flex;
+    justify-content: center;
+    margin: 50px;
+    width: 100%,
+}
+
+.logo {
+    height: 200px;
+}
+
+
+/*Nav*/
+
+table {
+    border: 1px white solid;
+    width: 500px;
+    height: 250px;
+    text-align: center;
+}
+
+td {
+    border: 1px white solid;
+    color: white;
+    width: 250px;
+    height: 250px;
+}
+
+tr {
+    width: 250px;
+    height: 250px;
+}
+
+
+.nav {
+    display: flex;
+    justify-content: center;
+}
+
+td img {
+    height: 100%;
+    width: 100%;
+}
