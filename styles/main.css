@@ -88,23 +88,25 @@ main {
 .funFacts {
 
     width: 35%;
+    margin-right: 4px;
 }
 
 .NES-funFacts {
     width: 100%;
-    margin: 5px;
+    margin-top: 2px;
     border: 1px white solid;
     text-align: center;
 }
 
 .NES-console-img {
     border: 1px white solid;
+    margin-bottom: 2px;
     width: 100%;
 }
 
 .triforce_img {
 
-    width: 50%;
+    width: 40%;
     float: right;
 }
 
@@ -125,9 +127,10 @@ float: right;
 }
 
 .NES-main-content {
+
     border: 1px white solid;
     padding: 20px;
     width: 100%;
-    margin: 5px;
+    margin-left: 6px;
     font-size: 2em;
 }
