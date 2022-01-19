@@ -1,0 +1,56 @@
+body {
+    color: rgb(0, 255, 0)
+}
+
+.game-nav-list {
+    display: flex;
+}
+
+.game-nav-list-item {
+    color: black;
+    background: rgb(0, 255, 0);
+    padding: 20px;
+    margin: 10px;
+}
+
+.img {
+    width: 350px;
+    border: 10px double rgb(255, 0, 255);
+}
+
+ul {
+    list-style-type: none;
+}
+
+.game-aside {
+    width: 25%;
+    background: rgba(0, 0, 0, .75);
+    float: right;
+    border: 2px solid rgb(0, 255, 0);
+    margin: 30px;
+    padding: 20px;
+}
+
+.game-funFacts-header {
+    color: white;
+}
+
+.game-main-content-header {
+    color: white;
+}
+
+h2 {
+    color: white;
+}
+
+.game-main-content {
+    width: auto;
+    background: rgba(0, 0, 0, .75);
+    border: 5px solid rgb(0, 255, 0);
+    margin: 30px;
+    padding: 20px;
+}
+
+hr {
+    border: 2px dashed rgb(255, 0, 255);
+}
