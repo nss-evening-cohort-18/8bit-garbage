@@ -52,4 +52,7 @@ td img {
     width: 100%;
 }
 
-
+.gc__header {
+    border: 2px solid white;
+    margin: 0;
+}

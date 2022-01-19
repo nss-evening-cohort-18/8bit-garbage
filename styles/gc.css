@@ -1,0 +1,152 @@
+body {
+    background-color: #000;
+}
+
+.logo-container {
+    display: flex;
+    justify-content: center;
+    margin: 50px;
+    width: 100%,
+}
+
+.logo {
+    height: 200px;
+}
+
+
+/* GameCube */
+
+.gc-header {
+    background-image: url("../img/gc-header.png");
+    margin: 5px;
+    padding: 0;
+    border: 1px white solid;
+    height: 136px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+} 
+
+.gc-nav-list {
+    display: flex;
+    margin: 0;
+}
+
+.gc-nav-list-item {
+    background-color: #000;
+    width: 100px;
+    list-style: none;
+    text-align: center;
+    padding: 5px;
+    border: 1px white solid;
+    color: white;
+    margin: 0 10px;
+}
+
+.gc-nav-list-item:hover {
+    background-color: white;
+    color: black;
+}
+
+/* Make a class for 'main' & 'aside' */
+
+main {
+    display: flex;
+    color: white;
+}
+
+aside {
+    width: 30%;
+    margin: 5px;
+}
+
+/* ---------------- */
+
+.gc-console-img {
+    border: 1px white solid;
+    width: 100%;
+}
+
+.gc-funFacts {
+    border: 1px white solid;
+    text-align: center;
+}
+
+.gc-funFacts-header {
+    color: #6545B2;
+    text-decoration: underline solid gold;
+}
+
+.gc-funFacts-list {
+    padding: 30px;
+}
+
+.gc-funFacts-list h1 {
+color: #6545B2;
+}
+
+.gc-main-content {
+    border: 1px white solid;
+    width: 70%;
+    margin: 5px;
+    padding: 30px;
+}
+
+.gc-main-content h1 {
+    color: #6545B2;
+    text-align: center;
+}
+
+.gc-main-content-header {
+    text-align: center;
+    font-size: 70px;
+    margin-top: 5px;
+    text-decoration: underline solid gold;
+}
+
+.gc-content-gif {
+    width: 60%;
+    margin: auto;
+    display: block;
+}
+
+/*Nav*/
+
+table {
+    border: 1px white solid;
+    width: 500px;
+    height: 250px;
+    text-align: center;
+}
+
+td {
+    border: 1px white solid;
+    color: white;
+    width: 250px;
+    height: 250px;
+}
+
+tr {
+    width: 250px;
+    height: 250px;
+}
+
+
+.nav {
+    display: flex;
+    justify-content: center;
+}
+
+td img {
+    height: 100%;
+    width: 100%;
+}
+
+.gc__header {
+    border: 2px solid white;
+    margin: 0;
+}
+
+.tab {
+    text-indent:40px 
+}
