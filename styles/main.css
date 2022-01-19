@@ -1,7 +1,6 @@
 body {
-    background-color: #000;
-    margin: 0;
-    padding: 0;
+    background-image: url("../img/background.jpg");
+    background-color: #000; 
 }
 
 .logo-container {
@@ -26,7 +25,7 @@ p {
 
 /*Nav*/
 
-table {
+.mainTable {
     border: 1px white solid;
     width: 500px;
     height: 250px;
@@ -40,16 +39,6 @@ td {
     height: 250px;
 }
 
-tr {
-    width: 250px;
-    height: 250px;
-}
-
-
-.nav {
-    display: flex;
-    justify-content: center;
-}
 
 td img {
     height: 100%;
